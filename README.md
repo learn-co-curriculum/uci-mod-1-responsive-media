@@ -19,7 +19,7 @@ In this lesson we will look at a strategy for making our media content reponsive
 > “You must be shapeless, formless, like water. When you pour water in a cup, it becomes the cup. When you pour water in a bottle, it becomes the bottle. When you pour water in a teapot, it becomes the teapot. Water can drip and it can crash. Become like water my friend.”
 > -Bruce Lee
 
-Using (%) percent measurements on our media allows them to fluidly fill the size of their container. In most cases our media is contained within the columns and rows or our layouts.
+Using percent (%) measurements on our media allows them to fluidly fill the size of their container. In most cases our media is contained within the columns and rows of our layouts.
 
 ```css
 img, form, input, table, video, audio, iframe {
@@ -32,7 +32,7 @@ Here we set our images, forms, inputs, tables, videos, audio elements, and i fra
 
 ## Summary
 
-- We can set our media to `width:100%; max-width: 100%;` to give them flexible fluid widths that will expand to the size of their parent. This allows us to write fewer media queries as they will resize to accomodate the device automatically in most cases.
+- We can set our media to `width: 100%; max-width: 100%;` to give them flexible fluid widths that will expand to the size of their parent. This allows us to write fewer media queries as they will resize to accomodate the device automatically in most cases.
 
 ## Resources
 
@@ -40,4 +40,3 @@ Here we set our images, forms, inputs, tables, videos, audio elements, and i fra
 - [Responsive Media Content - Code Example](http://jsfiddle.net/flatiron_school/HP6A3/1/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/responsive-media' title='Responsive Media'>Responsive Media</a> on Learn.co and start learning to code for free.</p>
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/responsive-media'>Responsive Media</a> on Learn.co and start learning to code for free.</p>
