@@ -28,7 +28,7 @@ img, form, input, table, video, audio, iframe {
 }
 ```
 
-Here we set our images, forms, inputs, tables, videos, audio elements, and i frames all to expand `width: 100%;` setting them to be as wide as the parent they are inside of. Then using `max-width: 100%;` prevents them from getting any larger than their parent. Using both these properties will insure that they scale fluidly in all browsers. Having them fill their columns allows us to write fewer media queries overall as they will squish and expand until we set a fixed size for their parent elements.
+Here we set our images, forms, inputs, tables, videos, audio elements, and i frames all to expand `width: 100%;` setting them to be as wide as the parent they are inside of. Then using `max-width: 100%;` prevents them from getting any larger than their parent. Using both these properties will ensure that they scale fluidly in all browsers. Having them fill their columns allows us to write fewer media queries overall as they will squish and expand until we set a fixed size for their parent elements.
 
 ## Summary
 
