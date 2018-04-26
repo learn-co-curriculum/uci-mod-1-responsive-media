@@ -51,9 +51,6 @@ automatically in most cases.
 
 ## Resources
 
-<iframe width="640" height="480" src="//www.youtube.com/embed/iC2yQbR_qys?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
-
-- [Presentation Slides](https://docs.google.com/presentation/d/1j_i5pGPB5lHbgr4fpdUDheRBv2kAeOk_yhfd1Uc2f3s/edit?usp=sharing)
 - [Responsive Media Content - Code Example](http://jsfiddle.net/flatiron_school/HP6A3/1/)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/responsive-media'>Responsive Media</a> on Learn.co and start learning to code for free.</p>
