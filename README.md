@@ -4,8 +4,8 @@
 
 As we've learned with media queries, people will be viewing your site from a
 number of different types of devices. Some media we may want to stretch or shrink
-with the container in proportion, regardless at varying screen sizes. right
-to read or browse the content. What can be done to accommodate for these variables?
+with the container in proportion at varying screen sizes. What can be done to
+accommodate for these variables?
 
 ## Objectives
 
@@ -14,7 +14,10 @@ to read or browse the content. What can be done to accommodate for these variabl
 
 ## Explain Responsive Layouts
 
-> “You must be shapeless, formless, like water. When you pour water in a cup, it becomes the cup. When you pour water in a bottle, it becomes the bottle. When you pour water in a teapot, it becomes the teapot. Water can drip and it can crash. Become like water my friend.”
+> “You must be shapeless, formless, like water. When you pour water in a cup, it
+becomes the cup. When you pour water in a bottle, it becomes the bottle. When you
+pour water in a teapot, it becomes the teapot. Water can drip and it can crash.
+Become like water my friend.”
 > -Bruce Lee
 
 Using percent (%) measurements on our media allows them to fluidly fill the size
