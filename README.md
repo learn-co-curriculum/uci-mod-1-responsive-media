@@ -1,4 +1,4 @@
-# Responsive Media
+# Intro to Responsive Media
 
 ## Problem Statement
 
