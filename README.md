@@ -8,7 +8,7 @@ multiple columns on wide screens and reducing to a single screen on a phone.
 But what about _media_ instead of text. How can we make sure that a photo of an
 adorable kitten makes sense in a multi-column _and_ a single-column display?
 
-> **CAREFUL** We're going to talk about _media_ as in images or videos in this
+> **NOTE:** We're going to talk about _media_ as in images or videos in this
 > lesson. Don't confuse _media_ with _media queries_.
 
 
@@ -57,7 +57,7 @@ queries overall as they will squish and expand until we set a fixed size for
 their parent elements.  This also allows us to focus sizing the parent element
 of the media content, which will often be a column of sibling elements.
 
-Consider a website like [Instagram](instagram.com): each photo being displayed
+Consider a website like [Instagram](https://instagram.com): each photo being displayed
 to a user shares a 'column' of content - a username, the photo, likes, comments;
 all fit into the width of a 'card' on the page. If the card shrinks or expands
 in size, the photo will too. Users on different sized screens will see a web
