@@ -2,10 +2,14 @@
 
 ## Problem Statement
 
-As we've learned with media queries, people will be viewing your site from a
-number of different types of devices. We may want some media to stretch or shrink
-with the container in proportion at varying screen sizes. What can be done to
-accommodate for these variables?
+Media queries allow us to choose between certain styles based on the size of
+the device. We can easily imagine a web page full of text breaking into
+multiple columns on wide screens and reducing to a single screen on a phone.
+But what about _media_ instead of text. How can we make sure that a photo of an
+adorable kitten makes sense in a multi-column _and_ a single-column display?
+
+> **CAREFUL** We're going to talk about _media_ as in images or movies in this
+> lesson. Don't confuse _media_ with _media queries_.
 
 ## Objectives
 
@@ -14,17 +18,16 @@ accommodate for these variables?
 
 ## Explain Responsive Layouts
 
-As quoted by Bruce Lee:
-> “You must be shapeless, formless, "like water". When you pour water in a
-cup, it becomes the cup. When you pour water in a bottle, it becomes
-the bottle. When you pour water in a teapot, it becomes the teapot.
-Water can drip and it can crash. Become like water my friend.”
->
+To quote Bruce Lee:
 
-Similarly with CSS, we can create fluid content. Using percent (%)
-measurements on our media allows them to fluidly fill the size of
-their container. In most cases our media is contained within the
-columns and rows of our layouts.
+> "You must be shapeless, formless, "like water". When you pour water in a
+cup, it becomes the cup. When you pour water in a bottle, it becomes the
+bottle. When you pour water in a teapot, it becomes the teapot.  Water can drip
+and it can crash. Become like water my friend."
+
+With CSS, we can create _fluid_ content. Using percent (%) measurements on our
+media's CSS allows them to fluidly fill the size of their container. In most
+cases our media is contained within the columns and rows of our layouts.
 
 <iframe width="640" height="480" src="//www.youtube.com/embed/iC2yQbR_qys?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 
@@ -40,16 +43,16 @@ img, form, input, table, video, audio, iframe {
 }
 ```
 
-In this code snippet, we set our images, forms, inputs, tables, videos,
-audio elements, and iframes all to expand `width: 100%;` setting them
-to be as wide as the parent they are inside of. Then using `max-width: 100%;`
-prevents them from getting any larger than their parent. 
+In this code snippet, we set our images, forms, inputs, tables, videos, audio
+elements, and iframes all to expand `width: 100%;`. This sets them to be as
+wide as the parent element they are inside of. Then, by setting  `max-width:
+100%;`, we prevent them from getting any larger than their parent.
 
-Using both these properties will ensure that they scale fluidly in all browsers.
-Having them fill their columns allows us to write fewer media queries overall as
-they will squish and expand until we set a fixed size for their parent elements.
-This also allows us to focus sizing the parent element of media content, which
-will often be a column of sibling elements.  
+Using both these properties will ensure that they scale fluidly in all
+browsers.  Having them fill their containers allows us to write fewer media
+queries overall as they will squish and expand until we set a fixed size for
+their parent elements.  This also allows us to focus sizing the parent element
+of the media content, which will often be a column of sibling elements.
 
 Consider a website like [Instagram](instagram.com): each photo being displayed
 to a user shares a 'column' of content - a username, the photo, likes, comments;
