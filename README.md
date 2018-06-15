@@ -3,7 +3,7 @@
 ## Problem Statement
 
 As we've learned with media queries, people will be viewing your site from a
-number of different types of devices. Some media we may want to stretch or shrink
+number of different types of devices. We may want some media to stretch or shrink
 with the container in proportion at varying screen sizes. What can be done to
 accommodate for these variables?
 
@@ -14,25 +14,8 @@ accommodate for these variables?
 
 ## Explain Responsive Layouts
 
-> “You must be shapeless, formless, like water. When you pour water in a cup, it
-becomes the cup. When you pour water in a bottle, it becomes the bottle. When you
-pour water in a teapot, it becomes the teapot. Water can drip and it can crash.
-Become like water my friend.”
-> -Bruce Lee
-
-Using percent (%) measurements on our media allows them to fluidly fill the size
-of their container. In most cases, our media is contained within the columns and
-rows of our layouts.
-
-<iframe width="640" height="480" src="//www.youtube.com/embed/iC2yQbR_qys?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
-
-*Note: Slides for this lecture video are provided in the resources at the
-bottom of this lesson.*
-
-## Use Percent Measurements
-
 As quoted by Bruce Lee:
-> “You must be shapeless, formless, like water. When you pour water in a
+> “You must be shapeless, formless, "like water". When you pour water in a
 cup, it becomes the cup. When you pour water in a bottle, it becomes
 the bottle. When you pour water in a teapot, it becomes the teapot.
 Water can drip and it can crash. Become like water my friend.”
@@ -42,6 +25,13 @@ Similarly with CSS, we can create fluid content. Using percent (%)
 measurements on our media allows them to fluidly fill the size of
 their container. In most cases our media is contained within the
 columns and rows of our layouts.
+
+<iframe width="640" height="480" src="//www.youtube.com/embed/iC2yQbR_qys?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+
+*Note: Slides for this lecture video are provided in the resources at the
+bottom of this lesson.*
+
+## Use Percent Measurements
 
 ```css
 img, form, input, table, video, audio, iframe {
