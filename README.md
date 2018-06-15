@@ -8,13 +8,15 @@ multiple columns on wide screens and reducing to a single screen on a phone.
 But what about _media_ instead of text. How can we make sure that a photo of an
 adorable kitten makes sense in a multi-column _and_ a single-column display?
 
-> **CAREFUL** We're going to talk about _media_ as in images or movies in this
+> **CAREFUL** We're going to talk about _media_ as in images or videos in this
 > lesson. Don't confuse _media_ with _media queries_.
+
 
 ## Objectives
 
 1. Explain responsive layouts
 1. Use percent measurements
+
 
 ## Explain Responsive Layouts
 
@@ -33,6 +35,7 @@ cases our media is contained within the columns and rows of our layouts.
 
 *Note: Slides for this lecture video are provided in the resources at the
 bottom of this lesson.*
+
 
 ## Use Percent Measurements
 
@@ -61,6 +64,7 @@ in size, the photo will too. Users on different sized screens will see a web
 page that is _slightly_ different, but at all sizes, the content looks good and
 is nearly consistent.
 
+
 ## Conclusion
 
 In order to scale content to fill a container, we can set our media's width
@@ -68,6 +72,7 @@ properties to `width: 100%; max-width: 100%;`. They'll have flexible, fluid
 widths that will expand to the size of their parent in proportion. It will
 resize to accommodate the device automatically in most cases. It keeps sites
 accessible and the code more maintainable with fewer media queries.
+
 
 ## Resources
 
